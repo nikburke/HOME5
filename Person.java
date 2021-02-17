@@ -23,6 +23,7 @@ public Person(String FIO, String post, String email ,String telephone, int salar
         System.out.println("телефон: "+ telephone);
         System.out.println("зарплата: "+ salary);
         System.out.println("возраст: "+ age);
+        System.out.println(" ");
    }
 public int getages() {
       return age;

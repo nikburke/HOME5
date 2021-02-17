@@ -12,8 +12,5 @@ for(int i = 0; i < 5; i++) {
     persArray[i].vivod();
   }
 }
-
-
-  }
-
+}
 }
