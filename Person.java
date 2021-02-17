@@ -17,17 +17,15 @@ public Person(String FIO, String post, String email ,String telephone, int salar
   this.age = age;
 }
    public void vivod() {
-      bloodvivod();
+        System.out.printf("ФИО: "+ FIO);
+        System.out.printf("должность: "+ post);
+        System.out.printf("email: "+ email);
+        System.out.printf("телефон: "+ telephone);
+        System.out.printf("зарплата: "+ salary);
+        System.out.printf("возраст: "+ age);
    }
 public int getages() {
       return age;
   }
-      private void bloodvivod() {
-        System.out.println("ФИО: ", FIO);
-        System.out.println("должность: ", post);
-        System.out.println("email: ", email);
-        System.out.println("телефон: ", telephone);
-        System.out.println("зарплата: ", salary);
-        System.out.println("возраст: ", age);
-    }
+
 }
