@@ -27,5 +27,4 @@ public Person(String FIO, String post, String email ,String telephone, int salar
 public int getages() {
       return age;
   }
-
 }
